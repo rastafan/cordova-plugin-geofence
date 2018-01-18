@@ -1,5 +1,10 @@
 # ChangeLog
 
+## Version 0.7.1 - 18.01.2018
+
+-fix permission alert not showing on iSO11 (missing NSLocationAlwaysAndWhenInUseUsageDescription in .plist, added default to config.xml)
+-fix initialization on ios falling back to error callback before user gives authorization (copied from https://github.com/ypelud/cordova-plugin-geofence/ - thx!)
+
 ## Version 0.7.0 - 14.05.2017
 
 - Adding/removing geofences now throw errors correctly
